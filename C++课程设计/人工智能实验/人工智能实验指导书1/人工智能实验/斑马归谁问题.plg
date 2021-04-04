@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 斑马归谁问题 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\dulizhi\AppData\Local\Temp\RSP2370.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/斑马归谁问题.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\人工智能\人工智能实验\斑马归谁问题.cpp"
+]
+Creating command line "cl.exe @C:\Users\dulizhi\AppData\Local\Temp\RSP2370.tmp" 
+Creating temporary file "C:\Users\dulizhi\AppData\Local\Temp\RSP2371.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/斑马归谁问题.pdb" /debug /machine:I386 /out:"Debug/斑马归谁问题.exe" /pdbtype:sept 
+".\Debug\斑马归谁问题.obj"
+]
+Creating command line "link.exe @C:\Users\dulizhi\AppData\Local\Temp\RSP2371.tmp"
+<h3>Output Window</h3>
+Compiling...
+斑马归谁问题.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+斑马归谁问题.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
