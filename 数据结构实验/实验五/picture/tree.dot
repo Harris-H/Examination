@@ -1,0 +1,65 @@
+digraph G {
+    graph [nodesep=0.3]
+    node [shape=circle]
+    edge [arrowhead=vee]
+    E [group=E]
+    " " [group=" "]
+    E -> " "
+    _tmp [group=" ", label="", width=0, style=invis]
+    _tmp1 [group=" ", label="", width=0, style=invis]
+    " " -> _tmp [style=invis]
+    " " -> _tmp1 [style=invis]
+    " " -> "."; 
+    _E [group=E, label="", width=0, style=invis]
+    E -> _E [style=invis]
+    v [group=v]
+    E -> v
+    e [group=e]
+    v -> e
+    a[group=a]
+    e -> a;
+    _a [group=a, label="", width=0, style=invis]
+    a -> _a [style=invis]
+    _a1 [group=a, label="", width=0, style=invis]
+    a -> _a1 [style=invis]
+    a -> d;
+    _e [group=e, label="", width=0, style=invis]
+    e -> _e [style=invis]
+    e -> r;
+    r -> m;
+    m -> l;
+    l -> h;
+    _l [group=l, label="", width=0, style=invis]
+    l -> _l [style=invis]
+    h -> g;
+    _h [group=h, label="", width=0, style=invis]
+    h -> _h [style=invis]
+    h -> i;
+    _m [group=m, label="", width=0, style=invis]
+    m -> _m [style=invis]
+    m -> n;
+    _n [group=n, label="", width=0, style=invis]
+    n -> _n [style=invis]
+    _n1 [group=n, label="", width=0, style=invis]
+    n -> _n1 [style=invis]
+    n-> o;
+    _r [group=r, label="", width=0, style=invis]
+    r -> _r [style=invis]
+    r -> s;
+    _s [group=s, label="", width=0, style=invis]
+    s -> _s [style=invis]
+    _s1 [group=s, label="", width=0, style=invis]
+    s -> _s1 [style=invis]
+    s -> t;
+    _v [group=v, label="", width=0, style=invis]
+    v -> _v [style=invis]
+    /*_v1 [group=v, label="", width=0, style=invis]
+    v -> _v1 [style=invis]
+    v -> w;*/
+    y [group=y,color=red]
+    v -> y
+    y -> w
+    _y [group=y, label="", width=0, style=invis]
+    y -> _y [style=invis]
+    {rank=same; _E; e}
+}
