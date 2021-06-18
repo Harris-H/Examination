@@ -1,2 +1,0 @@
-# Examination
-Examination related
