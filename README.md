@@ -17,5 +17,10 @@
 - 算法与设计实验
 - 认识实习
 - 身边的数学
-
+- 课设
+  - 计组、计算机网络、数据库
+  - 链接：https://pan.baidu.com/s/1JWjy-_ombwkvHUCpGqzsVw 
+  - 提取码：hh18 
+ 
+ 
 ## To be continued
