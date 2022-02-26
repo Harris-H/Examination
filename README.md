@@ -21,8 +21,7 @@
 - 身边的数学
 - 课设
   - 计组、计算机网络、数据库
-  - 链接：https://pan.baidu.com/s/1JWjy-_ombwkvHUCpGqzsVw 
-  - 提取码：hh18 
+  - 目前不允许访问,如有需要请联系我
  
  
 ## To be continued
